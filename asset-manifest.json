@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/percentech-repo/static/css/main.77527123.chunk.css",
+    "main.js": "/percentech-repo/static/js/main.8182acf1.chunk.js",
+    "main.js.map": "/percentech-repo/static/js/main.8182acf1.chunk.js.map",
+    "runtime-main.js": "/percentech-repo/static/js/runtime-main.14c52cdb.js",
+    "runtime-main.js.map": "/percentech-repo/static/js/runtime-main.14c52cdb.js.map",
+    "static/js/2.6bbe1411.chunk.js": "/percentech-repo/static/js/2.6bbe1411.chunk.js",
+    "static/js/2.6bbe1411.chunk.js.map": "/percentech-repo/static/js/2.6bbe1411.chunk.js.map",
+    "static/js/3.28a467f4.chunk.js": "/percentech-repo/static/js/3.28a467f4.chunk.js",
+    "static/js/3.28a467f4.chunk.js.map": "/percentech-repo/static/js/3.28a467f4.chunk.js.map",
+    "index.html": "/percentech-repo/index.html",
+    "static/css/main.77527123.chunk.css.map": "/percentech-repo/static/css/main.77527123.chunk.css.map",
+    "static/js/2.6bbe1411.chunk.js.LICENSE.txt": "/percentech-repo/static/js/2.6bbe1411.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/percentech-repo/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.14c52cdb.js",
+    "static/js/2.6bbe1411.chunk.js",
+    "static/css/main.77527123.chunk.css",
+    "static/js/main.8182acf1.chunk.js"
+  ]
+}
