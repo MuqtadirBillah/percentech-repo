@@ -1,0 +1,212 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body .App .navigation .navbar {
+  background-color: #000000;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #01cee3;
+}
+
+body .App .navigation .navbar .container-fluid .navbar-brand .company-logo {
+  width: 40px;
+}
+
+body .App .navigation .navbar .container-fluid .navbar-brand .company-name {
+  color: #01cee3;
+  display: inline;
+  font-weight: 600;
+  font-size: 25px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+body .App .navigation .navbar .container-fluid .collapse .navbar-nav {
+  margin-left: auto;
+}
+
+body .App .navigation .navbar .container-fluid .collapse .navbar-nav .nav-item {
+  font-size: large;
+}
+
+body .App .navigation .navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link {
+  color: white;
+}
+
+body .App .navigation .navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link:hover {
+  color: #01cee3;
+}
+
+body .App .navigation .navbar .container-fluid .collapse .navbar-nav .nav-item .active {
+  color: #01cee3;
+  border-bottom: 2px solid #01cee3;
+}
+
+body .App .mainCarousel .carousel .carousel-inner .carousel-item {
+  height: 91vh;
+}
+
+body .App .mainCarousel .carousel .carousel-inner .carousel-item .slide {
+  height: 100%;
+}
+
+body .App .mainCarousel .carousel .carousel-inner .carousel-item .slide .filter {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  padding: 50px 20%;
+  padding-top: 25vh;
+}
+
+body .App .mainCarousel .carousel .carousel-inner .carousel-item .slide .filter h1 {
+  color: #ffbd0f;
+  font-size: 100px;
+  font-weight: 700;
+}
+
+body .App .mainCarousel .carousel .carousel-inner .carousel-item .slide .filter h5 {
+  color: white;
+}
+
+body .App .mainCarousel .carousel .carousel-inner .carousel-item .slide .filter button {
+  background-color: #01cee3;
+  border: 0px;
+  height: 50px;
+  color: black;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+body .App .mainCarousel .carousel .carousel-inner .carousel-item img {
+  border: 2px solid red;
+  width: 100%;
+}
+
+body .App .about .container-fluid {
+  padding-left: 0;
+}
+
+body .App .about .container-fluid .row .aboutLeft img {
+  width: 100%;
+  height: 100%;
+}
+
+body .App .about .container-fluid .row .aboutRight {
+  margin-top: 25vh;
+  padding: 20px 30px;
+  font-family: Raleway, sans-serif;
+}
+
+body .App .about .container-fluid .row .aboutRight h1 {
+  color: #01cee3;
+}
+
+body .App .about .container-fluid .row .aboutRight h5 {
+  line-height: 30px;
+}
+
+body .App .services {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #0f0f0f;
+}
+
+body .App .services .heading {
+  text-align: center;
+  margin-bottom: 100px;
+  color: #01cee3;
+  font-size: 50px;
+}
+
+body .App .services .container .row .col {
+  padding: 0 20px;
+  margin: 0;
+}
+
+body .App .services .container .row .col .card {
+  -webkit-box-shadow: 10px 10px 15px 2px black;
+          box-shadow: 10px 10px 15px 2px black;
+  border-radius: 5px;
+}
+
+body .App .services .container .row .col .card img {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+body .App .services .container .row .col .card .card-body {
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: black;
+  border: 2px solid black;
+}
+
+body .App .services .container .row .col .card .card-body .card-title {
+  color: #01cee3;
+}
+
+body .App .services .container .row .col .card .card-body .card-text {
+  color: white;
+}
+
+body .App .services .container .row .col .card .card-body a {
+  background-color: black;
+  color: #01cee3;
+  border: 1px solid #01cee3;
+  font-weight: 600;
+}
+
+body .App .services .container .row .col .card .card-body a:hover {
+  background-color: #01cee3;
+  color: black;
+  font-weight: 600;
+}
+
+body .App .services .container .row .col .card:hover {
+  -webkit-box-shadow: 0px 0px 15px 15px black;
+          box-shadow: 0px 0px 15px 15px black;
+}
+
+body .App .services .container .row .col .card:hover .card-body {
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: black;
+  border: 2px solid black;
+}
+
+body .App .services .container .row .col .card:hover .card-body .card-title {
+  color: #01cee3;
+}
+
+body .App .services .container .row .col .card:hover .card-body .card-text {
+  color: white;
+}
+
+body .App .services .container .row .col .card:hover .card-body a {
+  background-color: black;
+  color: #01cee3;
+  border: 1px solid #01cee3;
+  font-weight: 600;
+}
+
+body .App .services .container .row .col .card:hover .card-body a:hover {
+  background-color: #01cee3;
+  color: black;
+  font-weight: 600;
+}
+
+body .App .client {
+  height: 300px;
+  background-color: red;
+}
+
+body .App .client .carousel .carousel-inner .carousel-item {
+  height: 100px;
+  width: 100px;
+}
+
+body .App .client .carousel .carousel-inner .carousel-item .clients img {
+  border: 1px solid white;
+}
+/*# sourceMappingURL=design.css.map */

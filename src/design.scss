@@ -1,0 +1,260 @@
+$Primary-color: #01cee3;
+$Yellow: #ffbd0f;
+$Dark-cyan: #02c1d6;
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    .App{
+        .navigation{
+            .navbar{
+                background-color: #000000;
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-bottom: 10px;
+                border-bottom: 1px solid $Primary-color;
+                .container-fluid{
+                    .navbar-brand{
+                        .company-logo{
+                            width: 40px;
+                        }
+                        .company-name{
+                            color: #01cee3;
+                            display: inline;
+                            font-weight: 600;
+                            font-size: 25px;
+                            margin-left: 10px;
+                            margin-top: 10px;
+                        }
+                    }
+                    .navbar-toggler{
+
+                        .navbar-toggler-icon{
+                        
+                        }
+                    }
+                    .collapse{
+                        // ul
+                        .navbar-nav{
+                            margin-left: auto;
+                            // li
+                            .nav-item{
+                                font-size: large;
+                                // a
+                                .nav-link{
+                                    color: white;
+                                }
+                                .nav-link:hover{
+                                    color: $Primary-color;
+                                }
+                                .active{
+                                    color: $Primary-color;
+                                    border-bottom: 2px solid $Primary-color;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+        .mainCarousel{
+            .carousel{
+                .carousel-indicators{
+                    button{
+
+                    }
+                }
+                .carousel-inner{
+                    .carousel-item{
+                        height: 91vh;
+                        .slide{
+                            height: 100%;
+                            .filter{
+                                background-color: rgba(0, 0, 0, 0.5);
+                                height: 100%;
+                                padding: 50px 20%;
+                                padding-top: 25vh;
+                                h1{
+                                    color: $Yellow;
+                                    font-size: 100px;
+                                    font-weight: 700;
+                                }
+                                h5{
+                                    color: white;
+                                }
+                                button{
+                                    background-color: $Primary-color;
+                                    border: 0px;
+                                    height: 50px;
+                                    color: black;
+                                    padding: 10px 20px;
+                                    font-weight: bold;
+                                }
+                            }
+                        }
+                        img{
+                            border: 2px solid red;
+                            width: 100%;    
+                        }
+                    }
+                    .active{
+
+                    }
+                }
+                // Previous Button
+                .carousel-control-prev{
+                    .carousel-control-prev-icon{
+
+                    }
+                    .visually-hidden{
+
+                    }
+                }
+            }
+        }
+
+        .about{
+            .container-fluid{
+                padding-left: 0;
+                .row{
+                    .aboutLeft{
+                        img{
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                    .aboutRight{
+                        margin-top: 25vh;
+                        padding: 20px 30px;
+                        font-family: Raleway, sans-serif;
+                        h1{
+                            color: $Primary-color;
+                        }
+                        h5{
+                            line-height: 30px;
+                        }
+
+                        
+                    }
+                }
+            }
+        }
+
+        .services{
+            padding-top: 50px;
+            padding-bottom: 50px;
+            background-color: #0f0f0f;
+            .heading{
+                text-align: center;
+                margin-bottom: 100px;
+                color: $Primary-color;
+                font-size: 50px;
+            }
+            .container{
+                .row{
+                    .col{
+                        padding: 0 20px;
+                        margin: 0;
+                        .card{
+                            box-shadow: 10px 10px 15px 2px rgb(0, 0, 0);
+                            border-radius: 5px;
+                            // border: 2px solid $Primary-color;
+                            img{
+                                border-top-right-radius: 5px;
+                                border-top-left-radius: 5px;
+                            }
+                            .card-body{
+                                border-bottom-right-radius: 5px;
+                                border-bottom-left-radius: 5px;
+                                background-color: black;
+                                border: 2px solid black;
+                                .card-title{
+                                    color: $Primary-color;
+                                }
+                                .card-text{
+                                    color: white;
+                                }
+                                a{
+                                    background-color: black;
+                                    color: $Primary-color;
+                                    border: 1px solid $Primary-color;
+                                    font-weight: 600;
+                                }
+                                a:hover{
+                                    background-color: $Primary-color;
+                                    color: black;
+                                    font-weight: 600;
+                                }
+                            }
+                        }
+                        .card:hover{
+                            box-shadow: 0px 0px 15px 15px black;
+                            .card-body{
+                                border-bottom-right-radius: 5px;
+                                border-bottom-left-radius: 5px;
+                                background-color: black;
+                                border: 2px solid black;
+                                .card-title{
+                                    color: $Primary-color;
+                                }
+                                .card-text{
+                                    color: white;
+                                }
+                                a{
+                                    background-color: black;
+                                    color: $Primary-color;
+                                    border: 1px solid $Primary-color;
+                                    font-weight: 600;
+                                }
+                                a:hover{
+                                    background-color: $Primary-color;
+                                    color: black;
+                                    font-weight: 600;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+        .client{
+            height: 300px;
+            background-color: red;
+            .carousel{
+                .carousel-inner{
+                    .carousel-item{
+                        height: 100px;
+                        width: 100px;
+                        .clients{
+                            img{
+                                border: 1px solid white;
+                            }
+                        }
+                    }
+                    .active{
+
+                    }
+                }
+                .carousel-control-prev{
+                    .carousel-control-prev-icon{
+                        
+                    }
+                    .visually-hidden{
+
+                    }
+                }
+                .carousel-control-next{
+                    .carousel-control-next-icon{
+
+                    }
+                    .visually-hidden{
+
+                    }
+                }
+            }
+        }
+    }
+}
